@@ -10,5 +10,10 @@
     background-color: black !important;
     color: black !important;
 }
-.swiper-button-next1{
+.active{
+    background-color: #49D0FF;
+    color: white;
+}
+.active2{
+    opacity: 1;
 }
