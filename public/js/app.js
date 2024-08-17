@@ -42,3 +42,11 @@ activeBox.forEach((item,index)=>{
     })
 
 })
+let heroMain = document.querySelector('#hero-main-img')
+let heroImg = document.querySelectorAll('#hero-img')
+
+heroImg.forEach((item, index) =>{
+    item.addEventListener('click' , function(){
+        heroMain.src = heroImg[index].src
+    })
+})
