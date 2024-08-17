@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!-- Header start -->
+    <header class="py-[33px] bg-[#121214]">
+        <div class="max-w-[1400px] mx-auto px-5">
+            <div class="flex items-center justify-between">
+                <!-- responsive style start -->
+                <div style="transition:  all .5s;" id="responsiveMenu"
+                    class=" -left-full pl-[22px] pb-[200px] pt-[50px] max-w-[360px] w-full top-0  bg-[#121214] fixed z-50">
+                    <button id="closeMenu" class="mb-[36px] md:hidden flex">
+                        <img src="./img/general-page/close.svg" alt="">
+                    </button>
+                    <div>
+                        <ul class="pl-[22px] flex flex-col gap-[48px]">
+                            <li>
+                                <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Одежда</a>
+                            </li>
+                            <li>
+                                <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Обувь</a>
+                            </li>
+                            <li>
+                                <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]"
+                                    href="">Аксессуары</a>
+                            </li>
+                            <li>
+                                <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Бренды</a>
+                            </li>
+                            <li>
+                                <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Расчет
+                                    стоимости</a>
+                            </li>
+                            <li>
+                                <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]"
+                                    href="">Информация</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- responsive style end -->
+                <div class="md:hidden flex items-center gap-[36px]">
+                    <button id="hamburgerMenu">
+                        <img src="./img/general-page/hamburger.svg" alt="">
+                    </button>
+                    <a href="">
+                        <img src="./img/general-page/search-btn.svg" alt="">
+                    </a>
+                </div>
+                <a class="mx-auto md:mx-0" href="">
+                    <img src="./img/general-page/logo.svg" alt="">
+                </a>
+                <ul class="hidden md:flex gap-[48px]">
+                    <li>
+                        <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Одежда</a>
+                    </li>
+                    <li>
+                        <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Обувь</a>
+                    </li>
+                    <li>
+                        <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Аксессуары</a>
+                    </li>
+                    <li>
+                        <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Бренды</a>
+                    </li>
+                    <li>
+                        <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Расчет стоимости</a>
+                    </li>
+                    <li>
+                        <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Информация</a>
+                    </li>
+                </ul>
+                <ul class="flex gap-[22px] md:gap-[32px] items-center">
+                    <li class="hidden md:flex">
+                        <a href="">
+                            <img src="./img/general-page/search-btn.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/general-page/star-btn.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/general-page/human-btn.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="relative">
+                        <a href="">
+                            <img src="./img/general-page/korzinka-btn.svg" alt="">
+                        </a>
+                        <span
+                            class=" md:hidden  absolute top-[-10px] right-[-8px] flex  py-[2px] px-[4px] rounded-[50%] bg-[#49D0FF] font-bold text-[10px] text-[#FFFFFF]">7</span>
+                    </li>
+                    <li class="hidden md:flex gap-[5px] items-center">
+                        <a class="font-bold text-[13px] leading-[10px] text-[#8C8F96]" href="">11 899 ₽</a>
+                        <span
+                            class="py-[4px] px-[7px] rounded-[50%] bg-[#49D0FF] font-bold text-[12px] text-[#FFFFFF]">7</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Cost-calculation hero start -->
+    <section class="pt-[14px]">
+        <div class="max-w-[1400px] mx-auto px-5">
+            <a class=" font-normal text-[13px] leading-[20px] text-[#121214]" href="">
+                <span class="font-normal text-[13px] leading-[20px] text-[#8C8F96]">Главная / </span>
+                Рассчитать стоимость
+            </a>
+            <div class="flex gap-[30px]">
+               <div class="mt-[46px]">
+                <h1 class="mb-[16px] font-black text-[31px] leading-[42px] text-[#121214]">
+                    Рассчитать стоимость
+                </h1>
+                <p class="font-normal text-[16px] leading-[27px] max-w-[913px] mb-[39px]">Мы ежедневно добавляем новые товары на сайт, но если вам не удалось найти то, что искали, вы всегда
+                    можете <br> воспользоваться автоматическим расчетом стоимость заказа на маркетплейсе <span class="font-bold text-[16px] leading-[27px] ">Poizon</span>, включая
+                    комиссию сервиса и доставку. Если у вас еще нет приложения <span class="font-bold text-[16px] leading-[27px] ">Poizon</span>, тогда можете посмотреть статью
+                    ниже. В приложении <br> есть любые кроссовки и одежда <span class="font-bold text-[16px] leading-[27px]">дешевле на 40% </span>чем в РФ. <br> <br>
+                    Если вы не хотите устанавливать приложение, вы всегда можете написать нам в <span class="font-normal text-[16px] leading-[27px] underline">Telegram</span> или <span class="font-normal text-[16px] leading-[27px] underline">WhatsApp</span>,
+                    какую <br> вещь хотите купить. Для этого напишите ее название или пришлите фотографию к нам в чат. Наши
+                    операторы сами <br> найдут нужный вам товар и рассчитают его стоимость.</p>
+                    <div class="flex items-center gap-[14px]">
+                        <button class="font-extrabold text-[12px] leading-[20px] text-[#FFFFFF] rounded-[5px] flex items-center  py-[23px] gap-[23px] px-[25px]  bg-[#121214]">
+                            Калькулятор <img src="./img/const-calculation1/calculator-chevron.svg" alt="">
+                        </button>
+                        <a class="py-[20px] px-[42px] border-[1px] border-[#121214] rounded-[6px]" href="">
+                            Написать менеджеру
+                        </a>
+                    </div>
+               </div>
+               <div>
+                <img src="./img/const-calculation1/gudie-how-inst-poizon.png" alt="">
+               </div>
+            </div>
+            <div class="max-w-[920px] border-[1px] border-[#E9EAEE] pt-[28px] px-[40px]">
+                <div>
+                    <h4 class="font-bold">Ссылка на товар в Poizon</h4>
+                    <form action="">
+                        <input placeholder="https://" class="w-[850px] py-[28px] pb-[11px] bg-[#F9F9F9] pl-[22px] outline-none rounded-[5px]" type="url">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Cost-calculation hero end -->
+
+
+
+
+
+
+
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>
