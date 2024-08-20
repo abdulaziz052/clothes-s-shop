@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!-- Header start -->
+    <header class="py-[33px] bg-[#121214]">
+        <div class="max-w-[1400px] mx-auto px-5">
+            <div class="flex items-center justify-between">
+                <!-- responsive style start -->
+                <div style="transition:  all .5s;" id="responsiveMenu"
+                    class=" -left-full pl-[22px] pb-[200px] pt-[50px] max-w-[360px] w-full top-0  bg-[#121214] fixed z-50">
+                    <button id="closeMenu" class="mb-[36px] md:hidden flex">
+                        <img src="./img/general-page/close.svg" alt="">
+                    </button>
+                    <div>
+                        <ul class="pl-[22px] flex flex-col gap-[48px]">
+                            <li>
+                                <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Одежда</a>
+                            </li>
+                            <li>
+                                <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Обувь</a>
+                            </li>
+                            <li>
+                                <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]"
+                                    href="">Аксессуары</a>
+                            </li>
+                            <li>
+                                <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Бренды</a>
+                            </li>
+                            <li>
+                                <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Расчет
+                                    стоимости</a>
+                            </li>
+                            <li>
+                                <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]"
+                                    href="">Информация</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- responsive style end -->
+                <div class="md:hidden flex items-center gap-[36px]">
+                    <button id="hamburgerMenu">
+                        <img src="./img/general-page/hamburger.svg" alt="">
+                    </button>
+                    <a href="">
+                        <img src="./img/general-page/search-btn.svg" alt="">
+                    </a>
+                </div>
+                <a class="mx-auto md:mx-0" href="">
+                    <img src="./img/general-page/logo.svg" alt="">
+                </a>
+                <ul class="hidden md:flex gap-[48px]">
+                    <li>
+                        <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Одежда</a>
+                    </li>
+                    <li>
+                        <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Обувь</a>
+                    </li>
+                    <li>
+                        <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Аксессуары</a>
+                    </li>
+                    <li>
+                        <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Бренды</a>
+                    </li>
+                    <li>
+                        <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Расчет стоимости</a>
+                    </li>
+                    <li>
+                        <a class="font-semibold text-[14px] leading-[16.8px] text-[#FFFF]" href="">Информация</a>
+                    </li>
+                </ul>
+                <ul class="flex gap-[22px] md:gap-[32px] items-center">
+                    <li class="hidden md:flex">
+                        <a href="">
+                            <img src="./img/general-page/search-btn.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/general-page/star-btn.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/general-page/human-btn.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="relative">
+                        <a href="">
+                            <img src="./img/general-page/korzinka-btn.svg" alt="">
+                        </a>
+                        <span
+                            class=" md:hidden  absolute top-[-10px] right-[-8px] flex  py-[2px] px-[4px] rounded-[50%] bg-[#49D0FF] font-bold text-[10px] text-[#FFFFFF]">7</span>
+                    </li>
+                    <li class="hidden md:flex gap-[5px] items-center">
+                        <a class="font-bold text-[13px] leading-[10px] text-[#8C8F96]" href="">11 899 ₽</a>
+                        <span
+                            class="py-[4px] px-[7px] rounded-[50%] bg-[#49D0FF] font-bold text-[12px] text-[#FFFFFF]">7</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Hero start -->
+     <section class="pt-[14px]">
+        <div class="max-w-[1400px] mx-auto px-5">
+            <ul class="mb-[46px] flex items-center gap-[15px]">
+                <li><a class="text-[#8C8F96]" href="">Главная </a></li>
+                <li class="text-[#8C8F96]">/</li>
+                <li><a href="">Личный кабинет</a></li>
+            </ul>
+            <h1 class="mb-[46px] font-extrabold text-[31px] leading-[42px] text-[#121214]">Личный кабинет</h1>
+            <div class="flex gap-[40px]"> 
+                <div class="max-w-[318px] pt-[28px] pb-[22px] px-[40px] max-h-[533px] border-2 rounded-[5px] border-[#E9EAEE]">
+                    <ul class="flex flex-col gap-y-[30px] text-nowrap">
+                        <li><button class="flex items-center gap-[21px] "> <img src="./img/change-password/Vector.svg"
+                                    alt="">Мой аккаунт </button></li>
+                        <li><button class="flex items-center gap-[21px] "> <img src="./img/change-password/Vector-1.svg"
+                                    alt="">Редактировать профиль </button></li>
+                        <li><button class="flex items-center gap-[21px] "> <img src="./img/change-password/Vector-2.svg"
+                                    alt="">История заказов </button></li>
+                        <li><button class="flex items-center gap-[21px] "> <img src="./img/change-password/Vector-3.svg"
+                                    alt="">Мои заказы </button></li>
+                        <li><button class="flex items-center gap-[21px] "> <img src="./img/change-password/Vector-4.svg"
+                                    alt="">Адреса </button></li>
+                        <li><button class="flex items-center gap-[21px] "> <img class="text-gray-500" src="./img/change-password/Vector-5.svg"
+                                    alt="">Редактировать адреса </button></li>
+                        <li><button class="flex items-center gap-[21px] "> <img src="./img/change-password/Vector-6.svg"
+                                    alt="">Пароль </button></li>
+                        <li><button class="flex items-center gap-[21px] "> <img src="./img/change-password/Vector-7.svg"
+                                    alt="">Выход </button></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Редактирование адреса</h2>
+                    <div>
+                        <form action="">
+                            <div class="mb-[30px] flex gap-[30px]">
+                                <input placeholder="Введите ваш имя" class="bg-[#F9F9F9] pt-[30px] pb-[16px] pl-[22px] rounded-[5px] w-[433px] outline-none" type="text">
+                                <input placeholder="Введите вашу фамилию" class="bg-[#F9F9F9] pt-[30px] pb-[16px] pl-[22px] rounded-[5px] w-[433px] outline-none" type="text">
+                            </div>
+                            <input placeholder="Введите название" class="mb-[30px] bg-[#F9F9F9] pt-[30px] pb-[16px] pl-[22px] rounded-[5px] w-[896px] outline-none" type="text">
+                            <select class="mb-[30px] bg-[#F9F9F9] pt-[30px] pb-[16px] pl-[22px] rounded-[5px] w-[896px] outline-none" name="" id="">
+                                <option class="text-gray-500" value="">Выбрать страну</option>
+                                <option class="text-gray-500" value="">Выбрать страну</option>
+                                <option class="text-gray-500" value="">Выбрать страну</option>
+                            </select>
+                            <input placeholder="Введите название улицы" class="mb-[30px] bg-[#F9F9F9] pt-[30px] pb-[16px] pl-[22px] rounded-[5px] w-[896px] outline-none" type="text">
+                            <div class="mb-[30px] flex gap-[30px]">
+                                <input placeholder="Введите номер дома и квартиры" class="bg-[#F9F9F9] pt-[30px] pb-[16px] pl-[22px] rounded-[5px] w-[433px] outline-none" type="text">
+                                <input placeholder="Ваш город" class="bg-[#F9F9F9] pt-[30px] pb-[16px] pl-[22px] rounded-[5px] w-[433px] outline-none" type="text">
+                            </div>
+
+                            <div class="mb-[30px] flex gap-[30px]">
+                                <input placeholder="Введите область или район" class="bg-[#F9F9F9] pt-[30px] pb-[16px] pl-[22px] rounded-[5px] w-[433px] outline-none" type="text">
+                                <input placeholder="Введите индекс" class="bg-[#F9F9F9] pt-[30px] pb-[16px] pl-[22px] rounded-[5px] w-[433px] outline-none" type="text">
+                            </div>
+                            <div class="mb-[30px] flex gap-[30px]">
+                                <input placeholder="yavasyaivanov@gmail.com" class="bg-[#F9F9F9] pt-[30px] pb-[16px] pl-[22px] rounded-[5px] w-[433px] outline-none" type="email">
+                                <input placeholder="+7 (000) 000 - 00 - 00" class="bg-[#F9F9F9] pt-[30px] pb-[16px] pl-[22px] rounded-[5px] w-[433px] outline-none" type="number">
+                            </div>
+                        <button class="py-[23px] px-[50px] bg-[#121214] font-extrabold rounded-[5px] text-white">Сохранить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Hero end -->
+
+
+
+
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
