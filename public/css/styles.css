@@ -546,6 +546,9 @@ video {
 .-left-full {
   left: -100%;
 }
+.bottom-\[10px\] {
+  bottom: 10px;
+}
 .bottom-\[5px\] {
   bottom: 5px;
 }
@@ -579,6 +582,27 @@ video {
 .top-\[33px\] {
   top: 33px;
 }
+.bottom-\[20px\] {
+  bottom: 20px;
+}
+.bottom-\[0px\] {
+  bottom: 0px;
+}
+.bottom-\[px\] {
+  bottom: px;
+}
+.bottom-\[50px\] {
+  bottom: 50px;
+}
+.bottom-\[60px\] {
+  bottom: 60px;
+}
+.bottom-\[70px\] {
+  bottom: 70px;
+}
+.right-0 {
+  right: 0px;
+}
 .z-50 {
   z-index: 50;
 }
@@ -597,6 +621,9 @@ video {
 }
 .mb-\[13px\] {
   margin-bottom: 13px;
+}
+.mb-\[14px\] {
+  margin-bottom: 14px;
 }
 .mb-\[15px\] {
   margin-bottom: 15px;
@@ -724,6 +751,12 @@ video {
 .mt-\[60px\] {
   margin-top: 60px;
 }
+.mb-\[35px\] {
+  margin-bottom: 35px;
+}
+.mb-\[44px\] {
+  margin-bottom: 44px;
+}
 .block {
   display: block;
 }
@@ -826,6 +859,12 @@ video {
 .w-full {
   width: 100%;
 }
+.w-\[188px\] {
+  width: 188px;
+}
+.w-\[491px\] {
+  width: 491px;
+}
 .max-w-\[1400px\] {
   max-width: 1400px;
 }
@@ -840,6 +879,9 @@ video {
 }
 .max-w-\[258px\] {
   max-width: 258px;
+}
+.max-w-\[296px\] {
+  max-width: 296px;
 }
 .max-w-\[300px\] {
   max-width: 300px;
@@ -858,6 +900,9 @@ video {
 }
 .max-w-\[450px\] {
   max-width: 450px;
+}
+.max-w-\[491px\] {
+  max-width: 491px;
 }
 .max-w-\[500px\] {
   max-width: 500px;
@@ -894,6 +939,18 @@ video {
 }
 .max-w-\[920px\] {
   max-width: 920px;
+}
+.max-w-\[\] {
+  max-width: ;
+}
+.max-w-\[1011px\] {
+  max-width: 1011px;
+}
+.max-w-\[600px\] {
+  max-width: 600px;
+}
+.max-w-\[1000px\] {
+  max-width: 1000px;
 }
 .-rotate-180 {
   --tw-rotate: -180deg;
@@ -983,6 +1040,9 @@ video {
 .gap-\[36px\] {
   gap: 36px;
 }
+.gap-\[40px\] {
+  gap: 40px;
+}
 .gap-\[48px\] {
   gap: 48px;
 }
@@ -1000,9 +1060,6 @@ video {
 }
 .gap-\[9px\] {
   gap: 9px;
-}
-.gap-\[40px\] {
-  gap: 40px;
 }
 .gap-x-\[10px\] {
   -moz-column-gap: 10px;
@@ -1037,6 +1094,9 @@ video {
 }
 .rounded-full {
   border-radius: 9999px;
+}
+.rounded {
+  border-radius: 0.25rem;
 }
 .border {
   border-width: 1px;
@@ -1139,8 +1199,15 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-\[\#E9EAEE\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 234 238 / var(--tw-bg-opacity));
+}
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+.p-\[20px\] {
+  padding: 20px;
 }
 .px-5 {
   padding-left: 1.25rem;
@@ -1262,9 +1329,13 @@ video {
   padding-top: 8px;
   padding-bottom: 8px;
 }
-.px-\[\] {
-  padding-left: ;
-  padding-right: ;
+.py-\[14px\] {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.py-\[30px\] {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .pb-\[100px\] {
   padding-bottom: 100px;
@@ -1335,6 +1406,9 @@ video {
 .pb-\[5px\] {
   padding-bottom: 5px;
 }
+.pb-\[69px\] {
+  padding-bottom: 69px;
+}
 .pb-\[73px\] {
   padding-bottom: 73px;
 }
@@ -1367,6 +1441,9 @@ video {
 }
 .pl-\[30px\] {
   padding-left: 30px;
+}
+.pl-\[35px\] {
+  padding-left: 35px;
 }
 .pl-\[40px\] {
   padding-left: 40px;
@@ -1433,6 +1510,9 @@ video {
 }
 .pt-\[98px\] {
   padding-top: 98px;
+}
+.pb-\[62px\] {
+  padding-bottom: 62px;
 }
 .text-center {
   text-align: center;
@@ -1571,6 +1651,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(48 48 48 / var(--tw-text-opacity));
 }
+.text-\[\#3B3B3E\] {
+  --tw-text-opacity: 1;
+  color: rgb(59 59 62 / var(--tw-text-opacity));
+}
 .text-\[\#3C3C3C\] {
   --tw-text-opacity: 1;
   color: rgb(60 60 60 / var(--tw-text-opacity));
@@ -1599,6 +1683,13 @@ video {
   --tw-text-opacity: 1;
   color: rgb(112 112 118 / var(--tw-text-opacity));
 }
+.text-\[\#87878D\] {
+  --tw-text-opacity: 1;
+  color: rgb(135 135 141 / var(--tw-text-opacity));
+}
+.text-\[\#8787D\] {
+  color: #8787D;
+}
 .text-\[\#8C8F96\] {
   --tw-text-opacity: 1;
   color: rgb(140 143 150 / var(--tw-text-opacity));
@@ -1624,6 +1715,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-\[\#6F6F6F\] {
+  --tw-text-opacity: 1;
+  color: rgb(111 111 111 / var(--tw-text-opacity));
 }
 .underline {
   text-decoration-line: underline;
