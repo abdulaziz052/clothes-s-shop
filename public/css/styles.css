@@ -682,6 +682,9 @@ video {
 .mb-\[65px\] {
   margin-bottom: 65px;
 }
+.mb-\[6px\] {
+  margin-bottom: 6px;
+}
 .mb-\[94px\] {
   margin-bottom: 94px;
 }
@@ -712,8 +715,8 @@ video {
 .mt-\[60px\] {
   margin-top: 60px;
 }
-.mb-\[6px\] {
-  margin-bottom: 6px;
+.mb-\[42px\] {
+  margin-bottom: 42px;
 }
 .block {
   display: block;
@@ -778,6 +781,9 @@ video {
 .w-\[550px\] {
   width: 550px;
 }
+.w-\[585px\] {
+  width: 585px;
+}
 .w-\[666px\] {
   width: 666px;
 }
@@ -786,6 +792,9 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-\[\] {
+  width: ;
 }
 .max-w-\[1400px\] {
   max-width: 1400px;
@@ -808,6 +817,9 @@ video {
 .max-w-\[318px\] {
   max-width: 318px;
 }
+.max-w-\[333px\] {
+  max-width: 333px;
+}
 .max-w-\[360px\] {
   max-width: 360px;
 }
@@ -823,8 +835,20 @@ video {
 .max-w-\[533px\] {
   max-width: 533px;
 }
+.max-w-\[537px\] {
+  max-width: 537px;
+}
+.max-w-\[635px\] {
+  max-width: 635px;
+}
+.max-w-\[637px\] {
+  max-width: 637px;
+}
 .max-w-\[655px\] {
   max-width: 655px;
+}
+.max-w-\[665px\] {
+  max-width: 665px;
 }
 .max-w-\[738px\] {
   max-width: 738px;
@@ -834,27 +858,6 @@ video {
 }
 .max-w-\[920px\] {
   max-width: 920px;
-}
-.max-w-\[\] {
-  max-width: ;
-}
-.max-w-\[637px\] {
-  max-width: 637px;
-}
-.max-w-\[537px\] {
-  max-width: 537px;
-}
-.max-w-\[437px\] {
-  max-width: 437px;
-}
-.max-w-\[4\] {
-  max-width: 4;
-}
-.max-w-\[433px\] {
-  max-width: 433px;
-}
-.max-w-\[333px\] {
-  max-width: 333px;
 }
 .-rotate-180 {
   --tw-rotate: -180deg;
@@ -977,9 +980,6 @@ video {
 }
 .rounded-full {
   border-radius: 9999px;
-}
-.rounded-\[\] {
-  border-radius: ;
 }
 .border {
   border-width: 1px;
@@ -1109,6 +1109,10 @@ video {
   padding-left: 25px;
   padding-right: 25px;
 }
+.px-\[275px\] {
+  padding-left: 275px;
+  padding-right: 275px;
+}
 .px-\[27px\] {
   padding-left: 27px;
   padding-right: 27px;
@@ -1197,13 +1201,9 @@ video {
   padding-top: 8px;
   padding-bottom: 8px;
 }
-.py-\[\] {
-  padding-top: ;
-  padding-bottom: ;
-}
-.px-\[\] {
-  padding-left: ;
-  padding-right: ;
+.px-\[264px\] {
+  padding-left: 264px;
+  padding-right: 264px;
 }
 .pb-\[100px\] {
   padding-bottom: 100px;
@@ -1220,11 +1220,17 @@ video {
 .pb-\[120px\] {
   padding-bottom: 120px;
 }
+.pb-\[14px\] {
+  padding-bottom: 14px;
+}
 .pb-\[16px\] {
   padding-bottom: 16px;
 }
 .pb-\[200px\] {
   padding-bottom: 200px;
+}
+.pb-\[274px\] {
+  padding-bottom: 274px;
 }
 .pb-\[30px\] {
   padding-bottom: 30px;
@@ -1234,6 +1240,9 @@ video {
 }
 .pb-\[380px\] {
   padding-bottom: 380px;
+}
+.pb-\[42px\] {
+  padding-bottom: 42px;
 }
 .pb-\[46px\] {
   padding-bottom: 46px;
@@ -1324,9 +1333,6 @@ video {
 }
 .pt-\[98px\] {
   padding-top: 98px;
-}
-.pb-\[274px\] {
-  padding-bottom: 274px;
 }
 .text-center {
   text-align: center;
@@ -1449,9 +1455,6 @@ video {
 .leading-\[42px\] {
   line-height: 42px;
 }
-.leading-\[\] {
-  line-height: ;
-}
 .text-\[\#000000\] {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1480,6 +1483,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(98 98 98 / var(--tw-text-opacity));
 }
+.text-\[\#666666\] {
+  --tw-text-opacity: 1;
+  color: rgb(102 102 102 / var(--tw-text-opacity));
+}
 .text-\[\#707076\] {
   --tw-text-opacity: 1;
   color: rgb(112 112 118 / var(--tw-text-opacity));
@@ -1505,10 +1512,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-\[\#666666\] {
-  --tw-text-opacity: 1;
-  color: rgb(102 102 102 / var(--tw-text-opacity));
 }
 .underline {
   text-decoration-line: underline;
@@ -1543,11 +1546,20 @@ video {
 .active2{
     opacity: 1;
 }
+.\*\:leading-\[20px\] > * {
+  line-height: 20px;
+}
 .placeholder\:text-\[13px\]::-moz-placeholder {
   font-size: 13px;
 }
 .placeholder\:text-\[13px\]::placeholder {
   font-size: 13px;
+}
+.placeholder\:text-\[14px\]::-moz-placeholder {
+  font-size: 14px;
+}
+.placeholder\:text-\[14px\]::placeholder {
+  font-size: 14px;
 }
 .placeholder\:font-normal::-moz-placeholder {
   font-weight: 400;
@@ -1560,6 +1572,14 @@ video {
 }
 .placeholder\:leading-\[28px\]::placeholder {
   line-height: 28px;
+}
+.placeholder\:text-\[\#424347\]::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(66 67 71 / var(--tw-text-opacity));
+}
+.placeholder\:text-\[\#424347\]::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(66 67 71 / var(--tw-text-opacity));
 }
 .placeholder\:text-\[\#717172\]::-moz-placeholder {
   --tw-text-opacity: 1;
