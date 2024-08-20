@@ -501,6 +501,39 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+.container {
+  width: 100%;
+}
+@media (min-width: 640px) {
+
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+
+  .container {
+    max-width: 1536px;
+  }
+}
 .fixed {
   position: fixed;
 }
@@ -676,6 +709,15 @@ video {
 .mt-\[60px\] {
   margin-top: 60px;
 }
+.mb-\[\] {
+  margin-bottom: ;
+}
+.mb-\[5px\] {
+  margin-bottom: 5px;
+}
+.mt-\[\] {
+  margin-top: ;
+}
 .block {
   display: block;
 }
@@ -742,6 +784,12 @@ video {
 .w-full {
   width: 100%;
 }
+.w-\[22px\] {
+  width: 22px;
+}
+.w-\[36px\] {
+  width: 36px;
+}
 .max-w-\[1400px\] {
   max-width: 1400px;
 }
@@ -756,6 +804,9 @@ video {
 }
 .max-w-\[258px\] {
   max-width: 258px;
+}
+.max-w-\[300px\] {
+  max-width: 300px;
 }
 .max-w-\[318px\] {
   max-width: 318px;
@@ -791,6 +842,9 @@ video {
   --tw-rotate: -180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 .cursor-pointer {
   cursor: pointer;
 }
@@ -800,8 +854,14 @@ video {
 .grid-cols-5 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
 .flex-col {
   flex-direction: column;
+}
+.items-start {
+  align-items: flex-start;
 }
 .items-center {
   align-items: center;
@@ -857,8 +917,20 @@ video {
 .gap-\[5px\] {
   gap: 5px;
 }
+.gap-\[60px\] {
+  gap: 60px;
+}
 .gap-\[9px\] {
   gap: 9px;
+}
+.gap-\[17px\] {
+  gap: 17px;
+}
+.gap-\[72px\] {
+  gap: 72px;
+}
+.gap-\[16px\] {
+  gap: 16px;
 }
 .gap-x-\[10px\] {
   -moz-column-gap: 10px;
@@ -869,6 +941,9 @@ video {
 }
 .overflow-hidden {
   overflow: hidden;
+}
+.text-nowrap {
+  text-wrap: nowrap;
 }
 .rounded-\[4px\] {
   border-radius: 4px;
@@ -888,14 +963,14 @@ video {
 .rounded-full {
   border-radius: 9999px;
 }
-.rounded {
-  border-radius: 0.25rem;
-}
-.rounded-\[\] {
-  border-radius: ;
+.border {
+  border-width: 1px;
 }
 .border-\[1px\] {
   border-width: 1px;
+}
+.border-2 {
+  border-width: 2px;
 }
 .border-b-0 {
   border-bottom-width: 0px;
@@ -943,6 +1018,14 @@ video {
 .border-\[\#F2F2F2\] {
   --tw-border-opacity: 1;
   border-color: rgb(242 242 242 / var(--tw-border-opacity));
+}
+.border-\[\#2BB3EB\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(43 179 235 / var(--tw-border-opacity));
+}
+.border-\[\#4FCA5D\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(79 202 93 / var(--tw-border-opacity));
 }
 .border-opacity-\[46\%\] {
   --tw-border-opacity: 46%;
@@ -1020,6 +1103,10 @@ video {
   padding-left: 32px;
   padding-right: 32px;
 }
+.px-\[40px\] {
+  padding-left: 40px;
+  padding-right: 40px;
+}
 .px-\[42px\] {
   padding-left: 42px;
   padding-right: 42px;
@@ -1091,10 +1178,6 @@ video {
 .py-\[8px\] {
   padding-top: 8px;
   padding-bottom: 8px;
-}
-.px-\[47px\] {
-  padding-left: 47px;
-  padding-right: 47px;
 }
 .pb-\[100px\] {
   padding-bottom: 100px;
@@ -1265,6 +1348,9 @@ video {
   font-size: 1rem;
   line-height: 1.5rem;
 }
+.text-\[16pc\] {
+  font-size: 16pc;
+}
 .font-black {
   font-weight: 900;
 }
@@ -1334,8 +1420,11 @@ video {
 .leading-\[42px\] {
   line-height: 42px;
 }
-.leading-\[p\] {
-  line-height: p;
+.leading-3 {
+  line-height: .75rem;
+}
+.leading-\[\] {
+  line-height: ;
 }
 .text-\[\#000000\] {
   --tw-text-opacity: 1;
@@ -1356,6 +1445,10 @@ video {
 .text-\[\#3C3C3C\] {
   --tw-text-opacity: 1;
   color: rgb(60 60 60 / var(--tw-text-opacity));
+}
+.text-\[\#454545\] {
+  --tw-text-opacity: 1;
+  color: rgb(69 69 69 / var(--tw-text-opacity));
 }
 .text-\[\#626262\] {
   --tw-text-opacity: 1;
