@@ -859,6 +859,9 @@ video {
 .w-\[290px\] {
   width: 290px;
 }
+.w-\[\] {
+  width: ;
+}
 .max-w-\[1011px\] {
   max-width: 1011px;
 }
@@ -1882,6 +1885,14 @@ video {
 
   .md\:w-\[302px\] {
     width: 302px;
+  }
+
+  .md\:w-\[433px\] {
+    width: 433px;
+  }
+
+  .md\:w-\[896px\] {
+    width: 896px;
   }
 
   .md\:max-w-\[665px\] {
